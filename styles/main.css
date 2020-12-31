@@ -24,7 +24,6 @@ body::-webkit-scrollbar{
     background: rgba(0,0,0,1);
     animation: fadeHome 1s ease forwards 1s;
 }
-
 #homeName{
     font-size:4em;
     position: absolute;
@@ -32,7 +31,6 @@ body::-webkit-scrollbar{
     left:50%;
     transform: translate(-50%,-50%);
 }
-
 .row{
     position: absolute;
     transform: translate(-50%,-50%);
@@ -41,34 +39,59 @@ body::-webkit-scrollbar{
     width:60%;
     height: 30%;
 }
-
 .tile{
     background: linear-gradient(120deg, rgba(187,0,219,0.9) 0%, rgba(187,0,219,0.8) 100%);
     border-radius: 10px;
     margin: 20px 20px 20px 20px;
     transition-duration: 0.4s;
 }
-
 .tile:hover{
     margin:0;
     padding: 10px;
     font-size:1.5em
 }
-
-
 #me{
     font-family: sans-serif;
-    font-size:2em
 }
-
+#top{
+    height: 15vh;
+    background: rgba(255,255,255,0.1);
+}
 #me div{
     position: absolute;
 }
-
 #meName{
     font-size:2.5em;
+    width: 50%;
 }
-
+#meInfo{
+    right: 0;
+    width: 50%;
+}
+#meInfo ul{
+    list-style: none;
+}
+.meTile{
+    top:120vh;
+    background: rgba(255,255,255,0.1);
+    width: 25%;
+    height: 70vh;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+.meTile:hover{
+    background: rgba(255,255,255,0.2);
+}
+#meDipl{
+    left: 5%;
+}
+#meXp{
+    transform: translate(-50%,0);
+    left:50%
+}
+#meSkills{
+    right: 5%;
+}
 @keyframes fadeHome{
     to{
         background: rgba(0,0,0,0.5);
