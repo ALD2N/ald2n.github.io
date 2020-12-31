@@ -81,16 +81,24 @@ body::-webkit-scrollbar{
 }
 .meTile:hover{
     background: rgba(255,255,255,0.2);
+    width:30%;
+    height: 75vh;
 }
 #meDipl{
-    left: 5%;
+    transform: translate(-50%,0);
+    left: 20%;
+}
+#meDipl ul{
+    margin-left:10%;
+    width:90%;
 }
 #meXp{
     transform: translate(-50%,0);
     left:50%
 }
 #meSkills{
-    right: 5%;
+    transform: translate(50%,0);
+    right: 20%;
 }
 @keyframes fadeHome{
     to{
