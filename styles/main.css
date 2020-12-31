@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    color:white;
+}
+
+body{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+body::-webkit-scrollbar{
+    display: none;
+}
+#back1{
+    background-image: url("../res/img/background.jpg");
+    background-size: cover;
+}
+#back2{
+    background: rgb(0,0,0);
+}
+#home{
+    font-family: sans-serif;
+    background: rgba(0,0,0,1);
+    animation: fadeHome 1s ease forwards 1s;
+}
+
+#homeName{
+    font-size:4em;
+    position: absolute;
+    top:30%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.row{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top:60%;
+    left:50%;
+    width:60%;
+    height: 30%;
+}
+
+.tile{
+    background: linear-gradient(120deg, rgba(187,0,219,0.9) 0%, rgba(187,0,219,0.8) 100%);
+    border-radius: 10px;
+    margin: 20px 20px 20px 20px;
+    transition-duration: 0.4s;
+}
+
+.tile:hover{
+    margin:0;
+    padding: 10px;
+    font-size:1.5em
+}
+
+
+#me{
+    font-family: sans-serif;
+    font-size:2em
+}
+
+#me div{
+    position: absolute;
+}
+
+#meName{
+    font-size:2.5em;
+}
+
+@keyframes fadeHome{
+    to{
+        background: rgba(0,0,0,0.5);
+    }
+}
