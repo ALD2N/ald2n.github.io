@@ -3,12 +3,10 @@
     padding: 0;
     color:white;
 }
-
 body{
     -ms-overflow-style: none;
     scrollbar-width: none;
 }
-
 body::-webkit-scrollbar{
     display: none;
 }
@@ -88,7 +86,7 @@ body::-webkit-scrollbar{
     transform: translate(-50%,0);
     left: 20%;
 }
-#meDipl ul{
+.meTile ul{
     margin-left:10%;
     width:90%;
 }
@@ -96,9 +94,15 @@ body::-webkit-scrollbar{
     transform: translate(-50%,0);
     left:50%
 }
+#meXp ul{
+    list-style: none;
+}
 #meSkills{
     transform: translate(50%,0);
     right: 20%;
+}
+#meSkills ul{
+    list-style:none;
 }
 @keyframes fadeHome{
     to{
